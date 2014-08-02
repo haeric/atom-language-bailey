@@ -1,0 +1,18 @@
+{
+  "version": "0.28.0",
+  "name": "language-bailey",
+  "description": "Bailey.js language support in Atom",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/haeric/language-bailey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haeric/language-bailey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haeric/language-bailey/issues"
+  }
+}
