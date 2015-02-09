@@ -8,6 +8,19 @@
 'foldingStopMarker': '^\\s*$|^\\s*[}\\]]\\s*$'
 'patterns': [
   {
+    'match': '(import) ([a-zA-Z0-9\-_/]+)(?:( as) ([a-zA-Z0-9]+))?'
+    'name': 'meta.import'
+    'captures':
+      '1':
+        'name': 'keyword.reserved.coffee'
+      '2':
+        'name': 'variable.assignment.coffee'
+      '3':
+        'name': 'keyword.reserved.coffee'
+      '4':
+        'name': 'variable.assignment.coffee'
+  }
+  {
     'captures':
       '1':
         'name': 'variable.parameter.function.coffee'
